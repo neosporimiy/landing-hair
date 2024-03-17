@@ -1,0 +1,36 @@
+.pricePage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+}
+
+.pricePageTitle {
+    padding-top: 0rem;
+    margin-bottom: 0.5rem;
+    font-size: 3rem;
+  }
+
+.priceList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1rem 1rem;
+    max-width: 50rem;
+
+}
+
+.priceImage {
+    max-width: 350px;
+    margin: 5px;
+    border: 2px solid white;
+    border-radius: 5%;
+}
+
+.centered-text {
+    text-align: center;
+    margin: 0rem 1rem;
+    max-width: 50rem;
+}

@@ -1,0 +1,30 @@
+.catalogItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 2px solid white;
+    border-radius: 5%;
+    margin: 0.5rem;
+    padding: 0 0.5rem;
+    min-width: 350px;
+}
+
+.catalogItemImage {
+    object-fit: cover;
+    border: 2px solid white;
+    border-radius: 10%;
+    height: 20rem;
+    margin: 0.5rem;
+}
+
+.catalogItemPrice {
+    color:rgb(1, 169, 1);
+    font-size: 1.5rem;
+}
+
+.catalogItemOldPrice {
+    color: red;
+    text-decoration:line-through;
+}
